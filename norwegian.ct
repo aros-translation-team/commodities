@@ -1,19 +1,21 @@
-## version $VER: Commodities.catalog 3.0 (20.05.2019)
-## language norwegian 
+## version $VER: Commodities.catalog 1.0 (12.08.2006)
+## language norsk
 ## codeset 0
 ;
+; FIXME: This file requires updating. When done, bump version to 3
+;
 MSG_CANT_OPEN_LIB
-Kan ikke åpne %s V%ld!\n
+Kan ikke �pne %s V%ld!\n
 ; Can't open %s V%ld!\n
 ;
 MSG_CANT_OPEN_INPUTDEVICE
-Kan ikke åpne 'input.device'
+
 ; Can't open 'input.device'
 ;
 ; ***NEW***
 ;
 MSG_CANT_LOCK_SCR
-Kan ikke låse offentlig skjerm!\n
+Kan ikke l�se offentlig skjerm!\n
 ; Can't lock public screen!\n
 ;
 MSG_CANT_GET_VI
@@ -33,7 +35,7 @@ Kan ikke plassere menyer!\n
 ; Can't layout menus!\n
 ;
 MSG_CANT_CREATE_WIN
-Kan ikke åpne vindu!\n
+Kan ikke �pne vindu!\n
 ; Can't create window!\n
 ;
 MSG_CANT_ALLOCATE_MEM
@@ -41,15 +43,15 @@ Kan ikke allokere programminne!\n
 ; Can't allocate application memory!\n
 ;
 MSG_CANT_CREATE_MSGPORT
-Kan ikke opprette meldingsport!\n
+Kan ikke lage meldingsport!\n
 ; Can't create message port!\n
 ;
 MSG_CANT_CREATE_BROKER
-Kan ikke opprette CxBroker-objekt!\n
+Kan ikke lage CxBroker-objekt!\n
 ; Can't create CxBroker object!\n
 ;
 MSG_CANT_CREATE_CUSTOM
-Kan ikke opprette CxCustom-objekt!\n
+Kan ikke lage CxCustom-objekt!\n
 ; Can't create CxCustom object!\n
 ;
 MSG_OK
@@ -61,11 +63,17 @@ Prosjekt
 ; Project
 ;
 MSG_MEN_PROJECT_HIDE
-Gjem
+
 ; H\0Hide
+;
+; ***NEW***
+;
 MSG_MEN_PROJECT_ICONIFY
-Minimer
+
 ; I\0Iconify
+;
+; ***NEW***
+;
 MSG_MEN_PROJECT_QUIT
 Q\0Avslutt
 ; Q\0Quit
@@ -106,7 +114,7 @@ Gjem
 ; Hide
 ;
 MSG_EXCHANGE_GAD_REMOVE
-Fjern
+Ta bort
 ; Remove
 ;
 MSG_EXCHANGE_CYCLE_ACTIVE
@@ -129,7 +137,7 @@ Systemets skjermsparer
 ; System Screen Blanker
 ;
 MSG_BLANKER_CXDESCR
-Gjør skjermen blank ved inaktivitet
+Gj�r skjermen blank ved inaktivitet
 ; Blanks screen when system inactive
 ;
 ; ===============================================
@@ -140,22 +148,22 @@ ClickToFront
 ; ClickToFront
 ;
 MSG_CLICK2FNT_CXTITLE
-Klikk til front-verktøy
+Klikk til Front-verkt�y
 ; Click To Front Utility
 ;
 MSG_CLICK2FNT_CXDESCR
-Løfter vinduer til forgrunnen
+L�fter vinduer til forgrunnen
 ; Click windows to front
 ;
 ; ===============================================
 ; OPAQUE
 ;
 MSG_OPAQUE_CXNAME
-Ugjennomsiktig
+Opaque
 ; Opaque
 ;
 MSG_OPAQUE_CXTITLE
-Ensfargede vinduer
+Solide vinduer
 ; Solid Windows
 ;
 MSG_OPAQUE_CXDESCR
@@ -200,90 +208,97 @@ FKey
 ; FKey
 ;
 MSG_FKEY_CXTITLE
-Funksjon:
+Function To Keys:
 ; Function To Keys:
 ;
 MSG_FKEY_CXDESCR
-Fest spesialfunksjoner til taster
+Attach Special Functions To Keys
 ; Attach special functions to keys
 ;
 MSG_FKEY_WINTITLE
-FKey: Hurtigtast = <%s>
+FKey: Hot Key = <%s>
 ; FKey: Hot Key = <%s>
 ;
 MSG_FKEY_DEFINED_KEYS
-Definerte taster
+Defined Keys
 ; Defined Keys
 ;
 MSG_FKEY_NEW_KEY
-_Ny tast
+_New Key
 ; _New Key
 ;
 MSG_FKEY_DELETE_KEY
-_Slett tast
+_Delete Key
 ; _Delete Key
 ;
 MSG_FKEY_SAVE_KEY
-Lagre definerte taster
+
 ; Save Defined Keys
 ;
+; ***NEW***
+;
 MSG_FKEY_COMMAND
-Kommando
+Command
 ; Command
 ;
 MSG_FKEY_COMMAND_PARAMS
-Kommandoparametre
+Command Parameters
 ; Command Parameters
 ;
 MSG_FKEY_CMD_CYCLE_WIN
-Bytt mellom vinduer
+Cycle Windows
 ; Cycle Windows
 ;
 MSG_FKEY_CMD_CYCLE_SCR
-Bytt mellom skjermer
+Cycle Screens
 ; Cycle Screens
 ;
 MSG_FKEY_CMD_ENLARGE_WIN
-Forstørr vindu
+Enlarge Window
 ; Enlarge Window
 ;
 MSG_FKEY_CMD_SHRINK_WIN
-Krymp vindu
+Shrink Window
 ; Shrink Window
 ;
 MSG_FKEY_CMD_TOGGLE_WIN_SIZE
-Velg vindusstørrelse
+Toggle Window Size
 ; Toggle Window Size
 ;
 MSG_FKEY_CMD_RESCUE_WIN
-Redd vindu
+
 ; Rescue Window
 ;
+; ***NEW***
+;
 MSG_FKEY_CMD_INSERT_TEXT
-Sett inn tekst
+Insert Text
 ; Insert Text
 ;
 MSG_FKEY_CMD_RUN_PROG
-Kjør program
+Run Program
 ; Run Program
 ;
 MSG_FKEY_CMD_RUN_AREXX
-Kjør Arexx script
+Run Arexx Script
 ; Run Arexx Script
 ;
 MSG_FKEY_MEN_PROJECT_SAVE
-S\0Lagre definerte taster
+S\0Save Defined Keys
 ; S\0Save Defined Keys
 ;
+; ===============================================
+; NOCAPSLOCK
+;
 MSG_NOCAPSLOCK_CXNAME
-Ingen CapsLock
+NoCapsLock
 ; NoCapsLock
 ;
 MSG_NOCAPSLOCK_CXTITLE
-Ingen CapsLock:
+NoCapsLock:
 ; NoCapsLock:
 ;
 MSG_NOCAPSLOCK_CXDESCR
-Gjør CAPS LOCK tasten virkningsløs
+Renders the CAPS LOCK key ineffective
 ; Renders the CAPS LOCK key ineffective
 ;
