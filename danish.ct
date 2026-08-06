@@ -1,0 +1,324 @@
+## version $VER: Commodities.catalog 3.0 (06.08.2026)
+## language dansk
+## codeset 0
+;
+MSG_CANT_OPEN_LIB
+Kan ikke åbne %s V%ld!\n
+; Can't open %s V%ld!\n
+;
+MSG_CANT_OPEN_INPUTDEVICE
+Kan ikke åbne 'input.device'
+; Can't open 'input.device'
+;
+MSG_CANT_OPEN_CLIPDEVICE
+Kan ikke åbne 'clipboard.device'
+; Can't open 'clipboard.device'
+;
+MSG_CANT_LOCK_SCR
+Kan ikke låse offentlig skærm!\n
+; Can't lock public screen!\n
+;
+MSG_CANT_GET_VI
+Kan ikke hente VisualInfo!\n
+; Can't get VisualInfo!\n
+;
+MSG_CANT_CREATE_GADGET
+Kan ikke oprette gadgets!\n
+; Can't create gadgets!\n
+;
+MSG_CANT_CREATE_MENUS
+Kan ikke oprette menuer!\n
+; Can't create menus!\n
+;
+MSG_CANT_LAYOUT_MENUS
+Kan ikke opsætte menuer!\n
+; Can't layout menus!\n
+;
+MSG_CANT_CREATE_WIN
+Kan ikke oprette vindue!\n
+; Can't create window!\n
+;
+MSG_CANT_ALLOCATE_MEM
+Kan ikke allokere programhukommelse!\n
+; Can't allocate application memory!\n
+;
+MSG_CANT_CREATE_MSGPORT
+Kan ikke oprette meddelelsesport!\n
+; Can't create message port!\n
+;
+MSG_CANT_ALLOCATE_SIGNAL
+Kan ikke allokere signal!\n
+; Can't allocate signal!\n
+;
+MSG_CANT_CREATE_BROKER
+Kan ikke oprette CxBroker-objekt!\n
+; Can't create CxBroker object!\n
+;
+MSG_CANT_CREATE_CUSTOM
+Kan ikke oprette CxCustom-objekt!\n
+; Can't create CxCustom object!\n
+;
+MSG_OK
+O.k.
+; Ok
+;
+MSG_MEN_PROJECT
+Projekt
+; Project
+;
+MSG_MEN_PROJECT_HIDE
+S\0Skjul
+; H\0Hide
+;
+MSG_MEN_PROJECT_ICONIFY
+I\0Ikonificér
+; I\0Iconify
+;
+MSG_MEN_PROJECT_QUIT
+Q\0Afslut
+; Q\0Quit
+;
+MSG_EXCHANGE_CXNAME
+Exchange
+; Exchange
+;
+MSG_EXCHANGE_CXTITLE
+Commodities Exchange
+; Commodities Exchange
+;
+MSG_EXCHANGE_CXDESCR
+Styrer systemets commodities
+; Controls system commodities
+;
+MSG_EXCHANGE_WINTITLE
+Exchange: Genvejstast = <%s>
+; Exchange: Hot Key = <%s>
+;
+MSG_EXCHANGE_LISTVIEW
+Tilgængelige commodities
+; Available commodities
+;
+MSG_EXCHANGE_INFO
+Information
+; Information
+;
+MSG_EXCHANGE_GAD_SHOW
+Vis
+; Show
+;
+MSG_EXCHANGE_GAD_HIDE
+Skjul
+; Hide
+;
+MSG_EXCHANGE_GAD_REMOVE
+Fjern
+; Remove
+;
+MSG_EXCHANGE_CYCLE_ACTIVE
+Aktiv
+; Active
+;
+MSG_EXCHANGE_CYCLE_INACTIVE
+Inaktiv
+; Inactive
+;
+MSG_BLANKER_CXNAME
+Blanker
+; Blanker
+;
+MSG_BLANKER_CXTITLE
+Systemets skærmslukker
+; System Screen Blanker
+;
+MSG_BLANKER_CXDESCR
+Slukker skærmen ved inaktivt system
+; Blanks screen when system inactive
+;
+MSG_CLICK2FNT_CXNAME
+ClickToFront
+; ClickToFront
+;
+MSG_CLICK2FNT_CXTITLE
+Klik-forrest-værktøj
+; Click To Front Utility
+;
+MSG_CLICK2FNT_CXDESCR
+Klik vinduer forrest
+; Click windows to front
+;
+MSG_OPAQUE_CXNAME
+Opaque
+; Opaque
+;
+MSG_OPAQUE_CXTITLE
+Solide vinduer
+; Solid Windows
+;
+MSG_OPAQUE_CXDESCR
+Flytning af vinduer i realtid
+; Realtime moving of windows
+;
+MSG_AUTOPOINT_CXNAME
+AutoPoint
+; AutoPoint
+;
+MSG_AUTOPOINT_CXTITLE
+Autopointer
+; Autopointer
+;
+MSG_AUTOPOINT_CXDESCR
+Aktiverer vinduet under musen
+; Activates the window under the mouse
+;
+MSG_STARTMENU_CXNAME
+StartMenu
+; StartMenu
+;
+MSG_STARTMENU_CXTITLE
+Systemets programstarter
+; System Program Starter
+;
+MSG_STARTMENU_CXDESCR
+Commodity til programstart
+; Program launch commodity
+;
+MSG_FKEY_CXNAME
+FKey
+; FKey
+;
+MSG_FKEY_CXTITLE
+Funktioner til taster:
+; Function To Keys:
+;
+MSG_FKEY_CXDESCR
+Tilknyt specialfunktioner til taster
+; Attach special functions to keys
+;
+MSG_FKEY_WINTITLE
+FKey: Genvejstast = <%s>
+; FKey: Hot Key = <%s>
+;
+MSG_FKEY_DEFINED_KEYS
+Definerede taster
+; Defined Keys
+;
+MSG_FKEY_NEW_KEY
+_Ny tast
+; _New Key
+;
+MSG_FKEY_DELETE_KEY
+_Slet tast
+; _Delete Key
+;
+MSG_FKEY_SAVE_KEY
+Gem definerede taster
+; Save Defined Keys
+;
+MSG_FKEY_COMMAND
+Kommando
+; Command
+;
+MSG_FKEY_COMMAND_PARAMS
+Kommandoparametre
+; Command Parameters
+;
+MSG_FKEY_CMD_CYCLE_WIN
+Skift vindue
+; Cycle Windows
+;
+MSG_FKEY_CMD_CYCLE_SCR
+Skift skærm
+; Cycle Screens
+;
+MSG_FKEY_CMD_ENLARGE_WIN
+Forstør vindue
+; Enlarge Window
+;
+MSG_FKEY_CMD_SHRINK_WIN
+Formindsk vindue
+; Shrink Window
+;
+MSG_FKEY_CMD_TOGGLE_WIN_SIZE
+Skift vinduesstørrelse
+; Toggle Window Size
+;
+MSG_FKEY_CMD_RESCUE_WIN
+Red vindue
+; Rescue Window
+;
+MSG_FKEY_CMD_INSERT_TEXT
+Indsæt tekst
+; Insert Text
+;
+MSG_FKEY_CMD_RUN_PROG
+Kør program
+; Run Program
+;
+MSG_FKEY_CMD_RUN_AREXX
+Kør Arexx-script
+; Run Arexx Script
+;
+MSG_FKEY_MEN_PROJECT_SAVE
+S\0Gem definerede taster
+; S\0Save Defined Keys
+;
+MSG_NOCAPSLOCK_CXNAME
+NoCapsLock
+; NoCapsLock
+;
+MSG_NOCAPSLOCK_CXTITLE
+NoCapsLock:
+; NoCapsLock:
+;
+MSG_NOCAPSLOCK_CXDESCR
+Gør CAPS LOCK-tasten virkningsløs
+; Renders the CAPS LOCK key ineffective
+;
+MSG_DEPTHMENU_CXNAME
+DepthMenu
+; DepthMenu
+;
+MSG_DEPTHMENU_CXTITLE
+DepthMenu:
+; DepthMenu:
+;
+MSG_DEPTHMENU_CXDESCR
+Pop op-menu til dybdegadgets
+; Popup menu for depth gadgets
+;
+MSG_ALTKEYQ_CXNAME
+AltKeyQ
+; AltKeyQ
+;
+MSG_ALTKEYQ_CXTITLE
+Tegnindtastning med tal
+; Character input by number
+;
+MSG_ALTKEYQ_CXDESCR
+Brug af Alt-tast i MS-DOS-stil
+; MS-DOS Style Alt key usage
+;
+MSG_ASCIITABLE_CXNAME
+ASCIITable
+; ASCIITable
+;
+MSG_ASCIITABLE_CXTITLE
+ASCIITable:
+; ASCIITable:
+;
+MSG_ASCIITABLE_CXDESCR
+Vælg taster fra en grafisk flade
+; Select keys from a GUI
+;
+MSG_ASCIITABLE_WINTITLE
+ASCIITable: Genvejstast = <%s>
+; ASCIITable: Hot Key = <%s>
+;
+MSG_ASCIITABLE_GAD_COPY
+Kopiér
+; Copy
+;
+MSG_ASCIITABLE_GAD_CLEAR
+Ryd
+; Clear
+;

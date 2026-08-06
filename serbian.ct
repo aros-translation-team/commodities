@@ -1,0 +1,324 @@
+## version $VER: Commodities.catalog 3.0 (06.08.2026)
+## language srpski
+## codeset 8
+;
+MSG_CANT_OPEN_LIB
+Ne mogu da otvorim %s V%ld!\n
+; Can't open %s V%ld!\n
+;
+MSG_CANT_OPEN_INPUTDEVICE
+Ne mogu da otvorim 'input.device'
+; Can't open 'input.device'
+;
+MSG_CANT_OPEN_CLIPDEVICE
+Ne mogu da otvorim 'clipboard.device'
+; Can't open 'clipboard.device'
+;
+MSG_CANT_LOCK_SCR
+Ne mogu da zakljuüam javni ekran!\n
+; Can't lock public screen!\n
+;
+MSG_CANT_GET_VI
+Ne mogu da dobijem VisualInfo!\n
+; Can't get VisualInfo!\n
+;
+MSG_CANT_CREATE_GADGET
+Ne mogu da napravim gadgete!\n
+; Can't create gadgets!\n
+;
+MSG_CANT_CREATE_MENUS
+Ne mogu da napravim menije!\n
+; Can't create menus!\n
+;
+MSG_CANT_LAYOUT_MENUS
+Ne mogu da rasporedim menije!\n
+; Can't layout menus!\n
+;
+MSG_CANT_CREATE_WIN
+Ne mogu da napravim prozor!\n
+; Can't create window!\n
+;
+MSG_CANT_ALLOCATE_MEM
+Ne mogu da zauzmem memoriju aplikacije!\n
+; Can't allocate application memory!\n
+;
+MSG_CANT_CREATE_MSGPORT
+Ne mogu da napravim port za poruke!\n
+; Can't create message port!\n
+;
+MSG_CANT_ALLOCATE_SIGNAL
+Ne mogu da zauzmem signal!\n
+; Can't allocate signal!\n
+;
+MSG_CANT_CREATE_BROKER
+Ne mogu da napravim CxBroker objekat!\n
+; Can't create CxBroker object!\n
+;
+MSG_CANT_CREATE_CUSTOM
+Ne mogu da napravim CxCustom objekat!\n
+; Can't create CxCustom object!\n
+;
+MSG_OK
+Ok
+; Ok
+;
+MSG_MEN_PROJECT
+Projekat
+; Project
+;
+MSG_MEN_PROJECT_HIDE
+H\0Sakrij
+; H\0Hide
+;
+MSG_MEN_PROJECT_ICONIFY
+I\0Ikonifikuj
+; I\0Iconify
+;
+MSG_MEN_PROJECT_QUIT
+Q\0Iza–i
+; Q\0Quit
+;
+MSG_EXCHANGE_CXNAME
+Exchange
+; Exchange
+;
+MSG_EXCHANGE_CXTITLE
+Commodities Exchange
+; Commodities Exchange
+;
+MSG_EXCHANGE_CXDESCR
+Upravlja sistemskim commodities
+; Controls system commodities
+;
+MSG_EXCHANGE_WINTITLE
+Exchange: Preüica = <%s>
+; Exchange: Hot Key = <%s>
+;
+MSG_EXCHANGE_LISTVIEW
+Dostupni commodities
+; Available commodities
+;
+MSG_EXCHANGE_INFO
+Informacije
+; Information
+;
+MSG_EXCHANGE_GAD_SHOW
+Prikaßi
+; Show
+;
+MSG_EXCHANGE_GAD_HIDE
+Sakrij
+; Hide
+;
+MSG_EXCHANGE_GAD_REMOVE
+Ukloni
+; Remove
+;
+MSG_EXCHANGE_CYCLE_ACTIVE
+Aktivno
+; Active
+;
+MSG_EXCHANGE_CYCLE_INACTIVE
+Neaktivan
+; Inactive
+;
+MSG_BLANKER_CXNAME
+Blanker
+; Blanker
+;
+MSG_BLANKER_CXTITLE
+Sistemsko gaÁenje ekrana
+; System Screen Blanker
+;
+MSG_BLANKER_CXDESCR
+Gasi ekran kada je sistem neaktivan
+; Blanks screen when system inactive
+;
+MSG_CLICK2FNT_CXNAME
+ClickToFront
+; ClickToFront
+;
+MSG_CLICK2FNT_CXTITLE
+Alatka za dovo–enje prozora napred
+; Click To Front Utility
+;
+MSG_CLICK2FNT_CXDESCR
+Klik dovodi prozor napred
+; Click windows to front
+;
+MSG_OPAQUE_CXNAME
+Opaque
+; Opaque
+;
+MSG_OPAQUE_CXTITLE
+Puni prozori
+; Solid Windows
+;
+MSG_OPAQUE_CXDESCR
+Pomeranje prozora u realnom vremenu
+; Realtime moving of windows
+;
+MSG_AUTOPOINT_CXNAME
+AutoPoint
+; AutoPoint
+;
+MSG_AUTOPOINT_CXTITLE
+Autopointer
+; Autopointer
+;
+MSG_AUTOPOINT_CXDESCR
+Aktivira prozor ispod pokazivaüa
+; Activates the window under the mouse
+;
+MSG_STARTMENU_CXNAME
+StartMenu
+; StartMenu
+;
+MSG_STARTMENU_CXTITLE
+Sistemski pokretaü programa
+; System Program Starter
+;
+MSG_STARTMENU_CXDESCR
+Commodity za pokretanje programa
+; Program launch commodity
+;
+MSG_FKEY_CXNAME
+FKey
+; FKey
+;
+MSG_FKEY_CXTITLE
+Funkcije na tastere:
+; Function To Keys:
+;
+MSG_FKEY_CXDESCR
+Dodela posebnih funkcija tasterima
+; Attach special functions to keys
+;
+MSG_FKEY_WINTITLE
+FKey: Preüica = <%s>
+; FKey: Hot Key = <%s>
+;
+MSG_FKEY_DEFINED_KEYS
+Definisani tasteri
+; Defined Keys
+;
+MSG_FKEY_NEW_KEY
+_Novi taster
+; _New Key
+;
+MSG_FKEY_DELETE_KEY
+_ObriÁi taster
+; _Delete Key
+;
+MSG_FKEY_SAVE_KEY
+Snimi definisane tastere
+; Save Defined Keys
+;
+MSG_FKEY_COMMAND
+Komanda
+; Command
+;
+MSG_FKEY_COMMAND_PARAMS
+Parametri komande
+; Command Parameters
+;
+MSG_FKEY_CMD_CYCLE_WIN
+Krußi kroz prozore
+; Cycle Windows
+;
+MSG_FKEY_CMD_CYCLE_SCR
+Krußi kroz ekrane
+; Cycle Screens
+;
+MSG_FKEY_CMD_ENLARGE_WIN
+UveÜaj prozor
+; Enlarge Window
+;
+MSG_FKEY_CMD_SHRINK_WIN
+Smanji prozor
+; Shrink Window
+;
+MSG_FKEY_CMD_TOGGLE_WIN_SIZE
+Promeni veliüinu prozora
+; Toggle Window Size
+;
+MSG_FKEY_CMD_RESCUE_WIN
+Spasi prozor
+; Rescue Window
+;
+MSG_FKEY_CMD_INSERT_TEXT
+Umetni tekst
+; Insert Text
+;
+MSG_FKEY_CMD_RUN_PROG
+Pokreni program
+; Run Program
+;
+MSG_FKEY_CMD_RUN_AREXX
+Pokreni Arexx skriptu
+; Run Arexx Script
+;
+MSG_FKEY_MEN_PROJECT_SAVE
+S\0Snimi definisane tastere
+; S\0Save Defined Keys
+;
+MSG_NOCAPSLOCK_CXNAME
+NoCapsLock
+; NoCapsLock
+;
+MSG_NOCAPSLOCK_CXTITLE
+NoCapsLock:
+; NoCapsLock:
+;
+MSG_NOCAPSLOCK_CXDESCR
+OnemoguÜava taster CAPS LOCK
+; Renders the CAPS LOCK key ineffective
+;
+MSG_DEPTHMENU_CXNAME
+DepthMenu
+; DepthMenu
+;
+MSG_DEPTHMENU_CXTITLE
+DepthMenu:
+; DepthMenu:
+;
+MSG_DEPTHMENU_CXDESCR
+IskaüuÜi meni za dubinske gadgete
+; Popup menu for depth gadgets
+;
+MSG_ALTKEYQ_CXNAME
+AltKeyQ
+; AltKeyQ
+;
+MSG_ALTKEYQ_CXTITLE
+Unos znaka pomoÜu broja
+; Character input by number
+;
+MSG_ALTKEYQ_CXDESCR
+Upotreba Alt tastera u MS-DOS stilu
+; MS-DOS Style Alt key usage
+;
+MSG_ASCIITABLE_CXNAME
+ASCIITable
+; ASCIITable
+;
+MSG_ASCIITABLE_CXTITLE
+ASCIITable:
+; ASCIITable:
+;
+MSG_ASCIITABLE_CXDESCR
+Izbor tastera preko GUI-ja
+; Select keys from a GUI
+;
+MSG_ASCIITABLE_WINTITLE
+ASCIITable: Preüica = <%s>
+; ASCIITable: Hot Key = <%s>
+;
+MSG_ASCIITABLE_GAD_COPY
+Kopiraj
+; Copy
+;
+MSG_ASCIITABLE_GAD_CLEAR
+ObriÁi
+; Clear
+;

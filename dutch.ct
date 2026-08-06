@@ -1,0 +1,324 @@
+## version $VER: Commodities.catalog 3.0 (06.08.2026)
+## language nederlands
+## codeset 0
+;
+MSG_CANT_OPEN_LIB
+Kan %s V%ld niet openen!\n
+; Can't open %s V%ld!\n
+;
+MSG_CANT_OPEN_INPUTDEVICE
+Kan 'input.device' niet openen
+; Can't open 'input.device'
+;
+MSG_CANT_OPEN_CLIPDEVICE
+Kan 'clipboard.device' niet openen
+; Can't open 'clipboard.device'
+;
+MSG_CANT_LOCK_SCR
+Kan publiek scherm niet vergrendelen!\n
+; Can't lock public screen!\n
+;
+MSG_CANT_GET_VI
+Kan VisualInfo niet verkrijgen!\n
+; Can't get VisualInfo!\n
+;
+MSG_CANT_CREATE_GADGET
+Kan gadgets niet aanmaken!\n
+; Can't create gadgets!\n
+;
+MSG_CANT_CREATE_MENUS
+Kan menu's niet aanmaken!\n
+; Can't create menus!\n
+;
+MSG_CANT_LAYOUT_MENUS
+Kan menu's niet opmaken!\n
+; Can't layout menus!\n
+;
+MSG_CANT_CREATE_WIN
+Kan venster niet aanmaken!\n
+; Can't create window!\n
+;
+MSG_CANT_ALLOCATE_MEM
+Kan geen applicatiegeheugen reserveren!\n
+; Can't allocate application memory!\n
+;
+MSG_CANT_CREATE_MSGPORT
+Kan message port niet aanmaken!\n
+; Can't create message port!\n
+;
+MSG_CANT_ALLOCATE_SIGNAL
+Kan geen signaal reserveren!\n
+; Can't allocate signal!\n
+;
+MSG_CANT_CREATE_BROKER
+Kan CxBroker-object niet aanmaken!\n
+; Can't create CxBroker object!\n
+;
+MSG_CANT_CREATE_CUSTOM
+Kan CxCustom-object niet aanmaken!\n
+; Can't create CxCustom object!\n
+;
+MSG_OK
+Ok
+; Ok
+;
+MSG_MEN_PROJECT
+Project
+; Project
+;
+MSG_MEN_PROJECT_HIDE
+H\0Verberg
+; H\0Hide
+;
+MSG_MEN_PROJECT_ICONIFY
+I\0Iconificeer
+; I\0Iconify
+;
+MSG_MEN_PROJECT_QUIT
+Q\0Einde
+; Q\0Quit
+;
+MSG_EXCHANGE_CXNAME
+Exchange
+; Exchange
+;
+MSG_EXCHANGE_CXTITLE
+Commodities Exchange
+; Commodities Exchange
+;
+MSG_EXCHANGE_CXDESCR
+Bestuurt systeemcommodities
+; Controls system commodities
+;
+MSG_EXCHANGE_WINTITLE
+Exchange: Sneltoets = <%s>
+; Exchange: Hot Key = <%s>
+;
+MSG_EXCHANGE_LISTVIEW
+Beschikbare commodities
+; Available commodities
+;
+MSG_EXCHANGE_INFO
+Informatie
+; Information
+;
+MSG_EXCHANGE_GAD_SHOW
+Toon
+; Show
+;
+MSG_EXCHANGE_GAD_HIDE
+Verberg
+; Hide
+;
+MSG_EXCHANGE_GAD_REMOVE
+Verwijder
+; Remove
+;
+MSG_EXCHANGE_CYCLE_ACTIVE
+Actief
+; Active
+;
+MSG_EXCHANGE_CYCLE_INACTIVE
+Inactief
+; Inactive
+;
+MSG_BLANKER_CXNAME
+Blanker
+; Blanker
+;
+MSG_BLANKER_CXTITLE
+Systeem schermbeveiliging
+; System Screen Blanker
+;
+MSG_BLANKER_CXDESCR
+Maakt scherm zwart bij inactiviteit
+; Blanks screen when system inactive
+;
+MSG_CLICK2FNT_CXNAME
+ClickToFront
+; ClickToFront
+;
+MSG_CLICK2FNT_CXTITLE
+Click To Front hulpprogramma
+; Click To Front Utility
+;
+MSG_CLICK2FNT_CXDESCR
+Klik vensters naar voren
+; Click windows to front
+;
+MSG_OPAQUE_CXNAME
+Opaque
+; Opaque
+;
+MSG_OPAQUE_CXTITLE
+Ondoorzichtige vensters
+; Solid Windows
+;
+MSG_OPAQUE_CXDESCR
+Vensters in realtime verplaatsen
+; Realtime moving of windows
+;
+MSG_AUTOPOINT_CXNAME
+AutoPoint
+; AutoPoint
+;
+MSG_AUTOPOINT_CXTITLE
+Autopointer
+; Autopointer
+;
+MSG_AUTOPOINT_CXDESCR
+Activeert het venster onder de muis
+; Activates the window under the mouse
+;
+MSG_STARTMENU_CXNAME
+StartMenu
+; StartMenu
+;
+MSG_STARTMENU_CXTITLE
+Systeemprogrammastarter
+; System Program Starter
+;
+MSG_STARTMENU_CXDESCR
+Commodity om programma's te starten
+; Program launch commodity
+;
+MSG_FKEY_CXNAME
+FKey
+; FKey
+;
+MSG_FKEY_CXTITLE
+Toetsfuncties:
+; Function To Keys:
+;
+MSG_FKEY_CXDESCR
+Speciale functies aan toetsen koppelen
+; Attach special functions to keys
+;
+MSG_FKEY_WINTITLE
+FKey: Sneltoets = <%s>
+; FKey: Hot Key = <%s>
+;
+MSG_FKEY_DEFINED_KEYS
+Gedefinieerde toetsen
+; Defined Keys
+;
+MSG_FKEY_NEW_KEY
+_Nieuwe toets
+; _New Key
+;
+MSG_FKEY_DELETE_KEY
+Toets _verwijderen
+; _Delete Key
+;
+MSG_FKEY_SAVE_KEY
+Gedefinieerde toetsen bewaren
+; Save Defined Keys
+;
+MSG_FKEY_COMMAND
+Opdracht
+; Command
+;
+MSG_FKEY_COMMAND_PARAMS
+Opdrachtparameters
+; Command Parameters
+;
+MSG_FKEY_CMD_CYCLE_WIN
+Door vensters bladeren
+; Cycle Windows
+;
+MSG_FKEY_CMD_CYCLE_SCR
+Door schermen bladeren
+; Cycle Screens
+;
+MSG_FKEY_CMD_ENLARGE_WIN
+Venster vergroten
+; Enlarge Window
+;
+MSG_FKEY_CMD_SHRINK_WIN
+Venster verkleinen
+; Shrink Window
+;
+MSG_FKEY_CMD_TOGGLE_WIN_SIZE
+Venstergrootte omschakelen
+; Toggle Window Size
+;
+MSG_FKEY_CMD_RESCUE_WIN
+Venster redden
+; Rescue Window
+;
+MSG_FKEY_CMD_INSERT_TEXT
+Tekst invoegen
+; Insert Text
+;
+MSG_FKEY_CMD_RUN_PROG
+Programma uitvoeren
+; Run Program
+;
+MSG_FKEY_CMD_RUN_AREXX
+Arexx-script uitvoeren
+; Run Arexx Script
+;
+MSG_FKEY_MEN_PROJECT_SAVE
+S\0Gedefinieerde toetsen bewaren
+; S\0Save Defined Keys
+;
+MSG_NOCAPSLOCK_CXNAME
+NoCapsLock
+; NoCapsLock
+;
+MSG_NOCAPSLOCK_CXTITLE
+NoCapsLock:
+; NoCapsLock:
+;
+MSG_NOCAPSLOCK_CXDESCR
+Schakelt de CAPS LOCK-toets uit
+; Renders the CAPS LOCK key ineffective
+;
+MSG_DEPTHMENU_CXNAME
+DepthMenu
+; DepthMenu
+;
+MSG_DEPTHMENU_CXTITLE
+DepthMenu:
+; DepthMenu:
+;
+MSG_DEPTHMENU_CXDESCR
+Popup-menu voor dieptegadgets
+; Popup menu for depth gadgets
+;
+MSG_ALTKEYQ_CXNAME
+AltKeyQ
+; AltKeyQ
+;
+MSG_ALTKEYQ_CXTITLE
+Tekeninvoer op nummer
+; Character input by number
+;
+MSG_ALTKEYQ_CXDESCR
+Alt-toetsgebruik in MS-DOS-stijl
+; MS-DOS Style Alt key usage
+;
+MSG_ASCIITABLE_CXNAME
+ASCIITable
+; ASCIITable
+;
+MSG_ASCIITABLE_CXTITLE
+ASCIITable:
+; ASCIITable:
+;
+MSG_ASCIITABLE_CXDESCR
+Kies tekens via een GUI
+; Select keys from a GUI
+;
+MSG_ASCIITABLE_WINTITLE
+ASCIITable: Sneltoets = <%s>
+; ASCIITable: Hot Key = <%s>
+;
+MSG_ASCIITABLE_GAD_COPY
+Kopieer
+; Copy
+;
+MSG_ASCIITABLE_GAD_CLEAR
+Wis
+; Clear
+;

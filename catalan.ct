@@ -1,0 +1,324 @@
+## version $VER: Commodities.catalog 3.0 (06.08.2026)
+## language català
+## codeset 0
+;
+MSG_CANT_OPEN_LIB
+No es pot obrir %s V%ld!\n
+; Can't open %s V%ld!\n
+;
+MSG_CANT_OPEN_INPUTDEVICE
+No es pot obrir 'input.device'
+; Can't open 'input.device'
+;
+MSG_CANT_OPEN_CLIPDEVICE
+No es pot obrir 'clipboard.device'
+; Can't open 'clipboard.device'
+;
+MSG_CANT_LOCK_SCR
+No es pot bloquejar la pantalla pública!\n
+; Can't lock public screen!\n
+;
+MSG_CANT_GET_VI
+No es pot obtenir VisualInfo!\n
+; Can't get VisualInfo!\n
+;
+MSG_CANT_CREATE_GADGET
+No es poden crear els gadgets!\n
+; Can't create gadgets!\n
+;
+MSG_CANT_CREATE_MENUS
+No es poden crear els menús!\n
+; Can't create menus!\n
+;
+MSG_CANT_LAYOUT_MENUS
+No es poden disposar els menús!\n
+; Can't layout menus!\n
+;
+MSG_CANT_CREATE_WIN
+No es pot crear la finestra!\n
+; Can't create window!\n
+;
+MSG_CANT_ALLOCATE_MEM
+No es pot assignar memòria per a l'aplicació!\n
+; Can't allocate application memory!\n
+;
+MSG_CANT_CREATE_MSGPORT
+No es pot crear el port de missatges!\n
+; Can't create message port!\n
+;
+MSG_CANT_ALLOCATE_SIGNAL
+No es pot assignar el senyal!\n
+; Can't allocate signal!\n
+;
+MSG_CANT_CREATE_BROKER
+No es pot crear l'objecte CxBroker!\n
+; Can't create CxBroker object!\n
+;
+MSG_CANT_CREATE_CUSTOM
+No es pot crear l'objecte CxCustom!\n
+; Can't create CxCustom object!\n
+;
+MSG_OK
+D'acord
+; Ok
+;
+MSG_MEN_PROJECT
+Projecte
+; Project
+;
+MSG_MEN_PROJECT_HIDE
+H\0Amagar
+; H\0Hide
+;
+MSG_MEN_PROJECT_ICONIFY
+I\0Iconificar
+; I\0Iconify
+;
+MSG_MEN_PROJECT_QUIT
+Q\0Sortir
+; Q\0Quit
+;
+MSG_EXCHANGE_CXNAME
+Exchange
+; Exchange
+;
+MSG_EXCHANGE_CXTITLE
+Intercanvi de commodities
+; Commodities Exchange
+;
+MSG_EXCHANGE_CXDESCR
+Controla els commodities del sistema
+; Controls system commodities
+;
+MSG_EXCHANGE_WINTITLE
+Exchange: Tecla ràpida = <%s>
+; Exchange: Hot Key = <%s>
+;
+MSG_EXCHANGE_LISTVIEW
+Commodities disponibles
+; Available commodities
+;
+MSG_EXCHANGE_INFO
+Informació
+; Information
+;
+MSG_EXCHANGE_GAD_SHOW
+Mostrar
+; Show
+;
+MSG_EXCHANGE_GAD_HIDE
+Amagar
+; Hide
+;
+MSG_EXCHANGE_GAD_REMOVE
+Eliminar
+; Remove
+;
+MSG_EXCHANGE_CYCLE_ACTIVE
+Actiu
+; Active
+;
+MSG_EXCHANGE_CYCLE_INACTIVE
+Inactiu
+; Inactive
+;
+MSG_BLANKER_CXNAME
+Blanker
+; Blanker
+;
+MSG_BLANKER_CXTITLE
+Protector de pantalla del sistema
+; System Screen Blanker
+;
+MSG_BLANKER_CXDESCR
+Enfosqueix la pantalla en inactivitat
+; Blanks screen when system inactive
+;
+MSG_CLICK2FNT_CXNAME
+ClickToFront
+; ClickToFront
+;
+MSG_CLICK2FNT_CXTITLE
+Utilitat Click To Front
+; Click To Front Utility
+;
+MSG_CLICK2FNT_CXDESCR
+Clic per portar finestres al davant
+; Click windows to front
+;
+MSG_OPAQUE_CXNAME
+Opaque
+; Opaque
+;
+MSG_OPAQUE_CXTITLE
+Finestres sòlides
+; Solid Windows
+;
+MSG_OPAQUE_CXDESCR
+Moviment de finestres en temps real
+; Realtime moving of windows
+;
+MSG_AUTOPOINT_CXNAME
+AutoPoint
+; AutoPoint
+;
+MSG_AUTOPOINT_CXTITLE
+Punter automàtic
+; Autopointer
+;
+MSG_AUTOPOINT_CXDESCR
+Activa la finestra sota el ratolí
+; Activates the window under the mouse
+;
+MSG_STARTMENU_CXNAME
+StartMenu
+; StartMenu
+;
+MSG_STARTMENU_CXTITLE
+Llançador de programes del sistema
+; System Program Starter
+;
+MSG_STARTMENU_CXDESCR
+Commodity per llançar programes
+; Program launch commodity
+;
+MSG_FKEY_CXNAME
+FKey
+; FKey
+;
+MSG_FKEY_CXTITLE
+Funcions a tecles:
+; Function To Keys:
+;
+MSG_FKEY_CXDESCR
+Assignar funcions especials a tecles
+; Attach special functions to keys
+;
+MSG_FKEY_WINTITLE
+FKey: Tecla ràpida = <%s>
+; FKey: Hot Key = <%s>
+;
+MSG_FKEY_DEFINED_KEYS
+Tecles definides
+; Defined Keys
+;
+MSG_FKEY_NEW_KEY
+_Nova tecla
+; _New Key
+;
+MSG_FKEY_DELETE_KEY
+_Esborrar tecla
+; _Delete Key
+;
+MSG_FKEY_SAVE_KEY
+Desar tecles definides
+; Save Defined Keys
+;
+MSG_FKEY_COMMAND
+Ordre
+; Command
+;
+MSG_FKEY_COMMAND_PARAMS
+Paràmetres de l'ordre
+; Command Parameters
+;
+MSG_FKEY_CMD_CYCLE_WIN
+Alternar finestres
+; Cycle Windows
+;
+MSG_FKEY_CMD_CYCLE_SCR
+Alternar pantalles
+; Cycle Screens
+;
+MSG_FKEY_CMD_ENLARGE_WIN
+Engrandir finestra
+; Enlarge Window
+;
+MSG_FKEY_CMD_SHRINK_WIN
+Reduir finestra
+; Shrink Window
+;
+MSG_FKEY_CMD_TOGGLE_WIN_SIZE
+Commutar mida de finestra
+; Toggle Window Size
+;
+MSG_FKEY_CMD_RESCUE_WIN
+Recuperar finestra
+; Rescue Window
+;
+MSG_FKEY_CMD_INSERT_TEXT
+Inserir text
+; Insert Text
+;
+MSG_FKEY_CMD_RUN_PROG
+Executar programa
+; Run Program
+;
+MSG_FKEY_CMD_RUN_AREXX
+Executar script Arexx
+; Run Arexx Script
+;
+MSG_FKEY_MEN_PROJECT_SAVE
+S\0Desar tecles definides
+; S\0Save Defined Keys
+;
+MSG_NOCAPSLOCK_CXNAME
+NoCapsLock
+; NoCapsLock
+;
+MSG_NOCAPSLOCK_CXTITLE
+NoCapsLock:
+; NoCapsLock:
+;
+MSG_NOCAPSLOCK_CXDESCR
+Desactiva la tecla BLOQ MAJ
+; Renders the CAPS LOCK key ineffective
+;
+MSG_DEPTHMENU_CXNAME
+DepthMenu
+; DepthMenu
+;
+MSG_DEPTHMENU_CXTITLE
+DepthMenu:
+; DepthMenu:
+;
+MSG_DEPTHMENU_CXDESCR
+Menú emergent de profunditat
+; Popup menu for depth gadgets
+;
+MSG_ALTKEYQ_CXNAME
+AltKeyQ
+; AltKeyQ
+;
+MSG_ALTKEYQ_CXTITLE
+Entrada de caràcters per número
+; Character input by number
+;
+MSG_ALTKEYQ_CXDESCR
+Ús de la tecla Alt a l'estil MS-DOS
+; MS-DOS Style Alt key usage
+;
+MSG_ASCIITABLE_CXNAME
+ASCIITable
+; ASCIITable
+;
+MSG_ASCIITABLE_CXTITLE
+ASCIITable:
+; ASCIITable:
+;
+MSG_ASCIITABLE_CXDESCR
+Selecció de tecles des d'una GUI
+; Select keys from a GUI
+;
+MSG_ASCIITABLE_WINTITLE
+ASCIITable: Tecla ràpida = <%s>
+; ASCIITable: Hot Key = <%s>
+;
+MSG_ASCIITABLE_GAD_COPY
+Copiar
+; Copy
+;
+MSG_ASCIITABLE_GAD_CLEAR
+Netejar
+; Clear
+;
