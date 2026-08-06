@@ -12,7 +12,7 @@ No puedo abrir 'input.device'
 ; Can't open 'input.device'
 ;
 MSG_CANT_OPEN_CLIPDEVICE
-No puedo abrir 'clipboard.device' 
+No puedo abrir 'clipboard.device'
 ; Can't open 'clipboard.device'
 ;
 MSG_CANT_LOCK_SCR

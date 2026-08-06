@@ -91,7 +91,7 @@ Razmjena Komoditija
 ; Commodities Exchange
 ;
 MSG_EXCHANGE_CXDESCR
-Upravlja Komoditijima 
+Upravlja Komoditijima
 ; Controls system commodities
 ;
 MSG_EXCHANGE_WINTITLE
@@ -225,7 +225,7 @@ Definiraj Kljuèeve
 ; Defined Keys
 ;
 MSG_FKEY_NEW_KEY
-_Novi Kljuè 
+_Novi Kljuè
 ; _New Key
 ;
 MSG_FKEY_DELETE_KEY
@@ -241,7 +241,7 @@ Komanda
 ; Command
 ;
 MSG_FKEY_COMMAND_PARAMS
-Parametri 
+Parametri
 ; Command Parameters
 ;
 MSG_FKEY_CMD_CYCLE_WIN
@@ -296,7 +296,7 @@ BezCapsLock:
 ; NoCapsLock:
 ;
 MSG_NOCAPSLOCK_CXDESCR
-Iskljuèuje CAPS LOCK 
+Iskljuèuje CAPS LOCK
 ; Renders the CAPS LOCK key ineffective
 ;
 ; ===============================================
@@ -326,7 +326,7 @@ Ulaz znakova po broju
 ; Character input by number
 ;
 MSG_ALTKEYQ_CXDESCR
-Koristi Alt tipku u MS-DOS stilu 
+Koristi Alt tipku u MS-DOS stilu
 ; MS-DOS Style Alt key usage
 ;
 ; ===============================================
