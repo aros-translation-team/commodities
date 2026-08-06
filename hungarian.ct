@@ -1,4 +1,4 @@
-## version $VER: Commodities.catalog 1.0 (12.08.2006)
+## version $VER: Commodities.catalog 3.0 (06.08.2026)
 ## language magyar
 ## codeset 5
 ;
@@ -9,8 +9,12 @@ Nem lehet a %s V%ld -t megnyitni!\n
 ; Can't open %s V%ld!\n
 ;
 MSG_CANT_OPEN_INPUTDEVICE
-
+Nem lehet megnyitni az 'input.device'-t
 ; Can't open 'input.device'
+;
+MSG_CANT_OPEN_CLIPDEVICE
+Nem lehet megnyitni a 'clipboard.device'-t
+; Can't open 'clipboard.device'
 ;
 ; ***NEW***
 ;
@@ -46,6 +50,10 @@ MSG_CANT_CREATE_MSGPORT
 Nem lehet a MessagePort-ot létrehozni!\n
 ; Can't create message port!\n
 ;
+MSG_CANT_ALLOCATE_SIGNAL
+Nem lehet szignált lefoglalni!\n
+; Can't allocate signal!\n
+;
 MSG_CANT_CREATE_BROKER
 Nem lehet a CxBroker objektet létrehozni!\n
 ; Can't create CxBroker object!\n
@@ -63,13 +71,13 @@ Projekt
 ; Project
 ;
 MSG_MEN_PROJECT_HIDE
-
+H\0Rejt
 ; H\0Hide
 ;
 ; ***NEW***
 ;
 MSG_MEN_PROJECT_ICONIFY
-
+I\0Ikonizál
 ; I\0Iconify
 ;
 ; ***NEW***
@@ -94,7 +102,7 @@ A irnyító commodities-ek beállítása
 ; Controls system commodities
 ;
 MSG_EXCHANGE_WINTITLE
-Csere
+Exchange: Gyorsbillentyû = <%s>
 ; Exchange: Hot Key = <%s>
 ;
 MSG_EXCHANGE_LISTVIEW
@@ -137,7 +145,7 @@ Képernyôpihentetô
 ; System Screen Blanker
 ;
 MSG_BLANKER_CXDESCR
-Elsötéti a monitort ha nincs használva a rendszer
+Elsötétíti a képernyõt tétlenségkor
 ; Blanks screen when system inactive
 ;
 ; ===============================================
@@ -232,7 +240,7 @@ _Delete Key
 ; _Delete Key
 ;
 MSG_FKEY_SAVE_KEY
-
+Definiált billentyûk mentése
 ; Save Defined Keys
 ;
 ; ***NEW***
@@ -266,7 +274,7 @@ Toggle Window Size
 ; Toggle Window Size
 ;
 MSG_FKEY_CMD_RESCUE_WIN
-
+Ablak visszahozása
 ; Rescue Window
 ;
 ; ***NEW***
@@ -301,4 +309,52 @@ NoCapsLock:
 MSG_NOCAPSLOCK_CXDESCR
 Renders the CAPS LOCK key ineffective
 ; Renders the CAPS LOCK key ineffective
+;
+MSG_DEPTHMENU_CXNAME
+DepthMenu
+; DepthMenu
+;
+MSG_DEPTHMENU_CXTITLE
+DepthMenu:
+; DepthMenu:
+;
+MSG_DEPTHMENU_CXDESCR
+Felugró menü a mélység gadgetekhez
+; Popup menu for depth gadgets
+;
+MSG_ALTKEYQ_CXNAME
+AltKeyQ
+; AltKeyQ
+;
+MSG_ALTKEYQ_CXTITLE
+Karakterbevitel szám alapján
+; Character input by number
+;
+MSG_ALTKEYQ_CXDESCR
+MS-DOS stílusú Alt billentyû használat
+; MS-DOS Style Alt key usage
+;
+MSG_ASCIITABLE_CXNAME
+ASCIITable
+; ASCIITable
+;
+MSG_ASCIITABLE_CXTITLE
+ASCIITable:
+; ASCIITable:
+;
+MSG_ASCIITABLE_CXDESCR
+Billentyûk kiválasztása GUI-ból
+; Select keys from a GUI
+;
+MSG_ASCIITABLE_WINTITLE
+ASCIITable: Gyorsbillentyû = <%s>
+; ASCIITable: Hot Key = <%s>
+;
+MSG_ASCIITABLE_GAD_COPY
+Másolás
+; Copy
+;
+MSG_ASCIITABLE_GAD_CLEAR
+Törlés
+; Clear
 ;

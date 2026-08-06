@@ -138,7 +138,7 @@ Sistemaren pantaila zuritzailea
 ; System Screen Blanker
 ;
 MSG_BLANKER_CXDESCR
-Pantaila hutsik geratzen da sistema inaktibo dagoenean
+Pantaila-babeslea inaktibo dagoenean
 ; Blanks screen when system inactive
 ;
 ; ===============================================
@@ -326,7 +326,7 @@ Karaktereak zenbakiaren bidez sartzea
 ; Character input by number
 ;
 MSG_ALTKEYQ_CXDESCR
-Erabili Alt tekla MS-DOS sisteman bezala
+Alt tekla MS-DOS sisteman bezala
 ; MS-DOS Style Alt key usage
 ;
 ; ===============================================

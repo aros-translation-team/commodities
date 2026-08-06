@@ -138,7 +138,7 @@ Sistem Ekran Koruyucu
 ; System Screen Blanker
 ;
 MSG_BLANKER_CXDESCR
-Sistem etkin olmadýðýnda ekran Koruyucusu
+Sistem boþtayken ekran koruyucusu
 ; Blanks screen when system inactive
 ;
 ; ===============================================
@@ -183,7 +183,7 @@ Otomatik iþaretleyici
 ; Autopointer
 ;
 MSG_AUTOPOINT_CXDESCR
-Farenin altýndaki pencereyi etkinleþtirir
+Fare altýndaki pencereyi etkinleþtirir
 ; Activates the window under the mouse
 ;
 ; ===============================================

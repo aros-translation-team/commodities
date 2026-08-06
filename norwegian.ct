@@ -1,4 +1,4 @@
-## version $VER: Commodities.catalog 3.0 (20.05.2019)
+## version $VER: Commodities.catalog 3.0 (06.08.2026)
 ## language norsk
 ## codeset 0
 ;
@@ -9,6 +9,10 @@ Kan ikke åpne %s V%ld!\n
 MSG_CANT_OPEN_INPUTDEVICE
 Kan ikke åpne 'input.device'
 ; Can't open 'input.device'
+;
+MSG_CANT_OPEN_CLIPDEVICE
+Kan ikke åpne 'clipboard.device'
+; Can't open 'clipboard.device'
 ;
 ; ***NEW***
 ;
@@ -43,6 +47,10 @@ Kan ikke allokere programminne!\n
 MSG_CANT_CREATE_MSGPORT
 Kan ikke opprette meldingsport!\n
 ; Can't create message port!\n
+;
+MSG_CANT_ALLOCATE_SIGNAL
+Kan ikke allokere signal!\n
+; Can't allocate signal!\n
 ;
 MSG_CANT_CREATE_BROKER
 Kan ikke opprette CxBroker-objekt!\n
@@ -86,7 +94,7 @@ Kontrollerer systemets commodities
 ; Controls system commodities
 ;
 MSG_EXCHANGE_WINTITLE
-Exchange
+Exchange: Hurtigtast = <%s>
 ; Exchange: Hot Key = <%s>
 ;
 MSG_EXCHANGE_LISTVIEW
@@ -286,4 +294,52 @@ Ingen CapsLock:
 MSG_NOCAPSLOCK_CXDESCR
 Gjør CAPS LOCK tasten virkningsløs
 ; Renders the CAPS LOCK key ineffective
+;
+MSG_DEPTHMENU_CXNAME
+DepthMenu
+; DepthMenu
+;
+MSG_DEPTHMENU_CXTITLE
+DepthMenu:
+; DepthMenu:
+;
+MSG_DEPTHMENU_CXDESCR
+Sprettoppmeny for dybdeknapper
+; Popup menu for depth gadgets
+;
+MSG_ALTKEYQ_CXNAME
+AltKeyQ
+; AltKeyQ
+;
+MSG_ALTKEYQ_CXTITLE
+Tegninntasting med tallkode
+; Character input by number
+;
+MSG_ALTKEYQ_CXDESCR
+Alt-tastbruk i MS-DOS-stil
+; MS-DOS Style Alt key usage
+;
+MSG_ASCIITABLE_CXNAME
+ASCIITable
+; ASCIITable
+;
+MSG_ASCIITABLE_CXTITLE
+ASCIITable:
+; ASCIITable:
+;
+MSG_ASCIITABLE_CXDESCR
+Velg taster fra et grafisk grensesnitt
+; Select keys from a GUI
+;
+MSG_ASCIITABLE_WINTITLE
+ASCIITable: Hurtigtast = <%s>
+; ASCIITable: Hot Key = <%s>
+;
+MSG_ASCIITABLE_GAD_COPY
+Kopier
+; Copy
+;
+MSG_ASCIITABLE_GAD_CLEAR
+Tøm
+; Clear
 ;

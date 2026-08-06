@@ -1,4 +1,4 @@
-## version $VER: Commodities.catalog 1.0 (12.08.2006)
+## version $VER: Commodities.catalog 3.0 (06.08.2026)
 ## language svenska
 ## codeset 0
 ;
@@ -9,8 +9,12 @@ Kan inte öppna %s V%ld!\n
 ; Can't open %s V%ld!\n
 ;
 MSG_CANT_OPEN_INPUTDEVICE
-
+Kan inte öppna 'input.device'
 ; Can't open 'input.device'
+;
+MSG_CANT_OPEN_CLIPDEVICE
+Kan inte öppna 'clipboard.device'
+; Can't open 'clipboard.device'
 ;
 ; ***NEW***
 ;
@@ -46,6 +50,10 @@ MSG_CANT_CREATE_MSGPORT
 Kan inte skapa meddelandeport!\n
 ; Can't create message port!\n
 ;
+MSG_CANT_ALLOCATE_SIGNAL
+Kan inte allokera signal!\n
+; Can't allocate signal!\n
+;
 MSG_CANT_CREATE_BROKER
 Kan inte skapa CxBroker-objekt!\n
 ; Can't create CxBroker object!\n
@@ -63,13 +71,13 @@ Redigera
 ; Project
 ;
 MSG_MEN_PROJECT_HIDE
-
+H\0Göm
 ; H\0Hide
 ;
 ; ***NEW***
 ;
 MSG_MEN_PROJECT_ICONIFY
-
+I\0Ikonifiera
 ; I\0Iconify
 ;
 ; ***NEW***
@@ -94,7 +102,7 @@ Kontrollerar systemets commodities
 ; Controls system commodities
 ;
 MSG_EXCHANGE_WINTITLE
-Exchange
+Exchange: Snabbtangent = <%s>
 ; Exchange: Hot Key = <%s>
 ;
 MSG_EXCHANGE_LISTVIEW
@@ -232,7 +240,7 @@ _Delete Key
 ; _Delete Key
 ;
 MSG_FKEY_SAVE_KEY
-
+Spara definierade tangenter
 ; Save Defined Keys
 ;
 ; ***NEW***
@@ -266,7 +274,7 @@ Toggle Window Size
 ; Toggle Window Size
 ;
 MSG_FKEY_CMD_RESCUE_WIN
-
+Rädda fönster
 ; Rescue Window
 ;
 ; ***NEW***
@@ -301,4 +309,52 @@ NoCapsLock:
 MSG_NOCAPSLOCK_CXDESCR
 Renders the CAPS LOCK key ineffective
 ; Renders the CAPS LOCK key ineffective
+;
+MSG_DEPTHMENU_CXNAME
+DepthMenu
+; DepthMenu
+;
+MSG_DEPTHMENU_CXTITLE
+DepthMenu:
+; DepthMenu:
+;
+MSG_DEPTHMENU_CXDESCR
+Popupmeny för djupknappar
+; Popup menu for depth gadgets
+;
+MSG_ALTKEYQ_CXNAME
+AltKeyQ
+; AltKeyQ
+;
+MSG_ALTKEYQ_CXTITLE
+Teckeninmatning med nummer
+; Character input by number
+;
+MSG_ALTKEYQ_CXDESCR
+Alt-tangent i MS-DOS-stil
+; MS-DOS Style Alt key usage
+;
+MSG_ASCIITABLE_CXNAME
+ASCIITable
+; ASCIITable
+;
+MSG_ASCIITABLE_CXTITLE
+ASCIITable:
+; ASCIITable:
+;
+MSG_ASCIITABLE_CXDESCR
+Välj tecken via grafiskt gränssnitt
+; Select keys from a GUI
+;
+MSG_ASCIITABLE_WINTITLE
+ASCIITable: Snabbtangent = <%s>
+; ASCIITable: Hot Key = <%s>
+;
+MSG_ASCIITABLE_GAD_COPY
+Kopiera
+; Copy
+;
+MSG_ASCIITABLE_GAD_CLEAR
+Rensa
+; Clear
 ;
